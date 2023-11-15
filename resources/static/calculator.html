@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="functions.js"></script>
+</head>
+<body>
+<h1>Calculator</h1>
+
+<form>
+    <label for="first_number">First number</label><br>
+    <input type="number" id = "first_number" placeholder="Prvi broj"><br><br>
+
+    <label for="second_number">Second number</label><br>
+    <input type="number" id = "second_number" placeholder="Drugi broj"><br><br>
+
+    <label for="operation">Operation</label><br>
+    <input type="text" id = "operation" placeholder="/ * + -"><br><br>
+
+    <button name="button" type="button" onclick="addRecordInList()">Calculate</button>
+    <button name="reset" type="reset">Reset</button>
+
+
+
+    <p>Result</p>
+    <input type="number" id="result">
+    <br><br>
+
+    <p>History</p>
+    <ol id="historyList">
+
+    </ol>
+
+</form>
+
+
+</body>
+</html>
